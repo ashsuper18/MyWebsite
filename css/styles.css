@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(223, 240, 240);
+  font-family: "Merriweather", serif;
+  color: rgb(60, 60, 61);
+
+}
+p{
+  line-height: 2;
+
+}
+/* 16px = 100% = 1em */
+h1 {
+  margin: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #74cece;
+  /* line-height: 2; */
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  /* line-height: 2; */
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+hr{
+  border: dotted rgb(104, 107, 110) 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #172f2f;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:rgb(210, 231, 231)
+}
+.footer-link {
+  color: #1f8d90;
+}
+.top {
+  background-color: rgb(200, 240, 230);
+  margin-top: 0;
+  position: relative;
+  padding-top: 100px;
+}
+.middle {
+  margin: 100px 0;
+}
+.bottom {
+  background-color: #66bfbf;
+  padding: 50px 0 10px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.me {
+  width: 20%;
+  padding-top: 20px;
+  /* height: 10%; */
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.chilli {
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+.computer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   color: #FFFFFF;
+   font-size: 3 0px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #5BB4F3;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #0076bb;
+   border: solid #337FED 0;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   text-decoration: none;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 40px;
+}
+
+.copyright{
+  color:rgb(194, 228, 226);
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
